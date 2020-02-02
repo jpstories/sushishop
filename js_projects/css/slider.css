@@ -1,0 +1,25 @@
+.sliderBox{
+    height: 280px;
+    width: 210px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.slider__line {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.slider__line div{
+    float: left;
+    height: 100%;
+    width: max-content;
+}

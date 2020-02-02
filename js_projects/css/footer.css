@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    height: 120px;
+    background: rgb(248, 77, 77);
+    display: flex;
+    flex-flow:row;
+    justify-content: flex-start;
+    font-size: 1.1em;
+}
+
+.quality{
+    font-size: 0.9em;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.quality ul{
+    line-height: 1.5;
+}
+
+.footer .quality a{
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+}
